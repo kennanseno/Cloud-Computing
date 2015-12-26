@@ -29,7 +29,7 @@ secret_access_key = result[1]
 # Set up a connection to the AWS service.
 conn = boto.sqs.connect_to_region("eu-west-1", aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
 
-student_number = 'C13470112'
+student_number = 'D14123582_'
 #conn.delete_queue(sys.argv[1])
 
 # Set up a connection to the AWS service. 
